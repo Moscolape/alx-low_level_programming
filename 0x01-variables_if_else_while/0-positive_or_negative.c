@@ -1,4 +1,5 @@
 /**
+ * main - Prints a random number, stating if it is positive, negative, or zero.
  * Program written by Chukwunenye Moses
  */
 
@@ -8,14 +9,12 @@
 #include <stdio.h>
 
 /**
- * main - Print a random number, stating if it is positive, negative, or zero.
- *
  * Return: Always 0.
  */
 
 int main(void)
-
 {
+
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
