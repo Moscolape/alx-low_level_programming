@@ -11,7 +11,7 @@
 
 /**
  * main(void) - Entry point
- * Return: 'main' should always return 0 - success.
+ * Return: main(void) should always return 0 - success.
  */
 
 int main(void)
