@@ -1,0 +1,27 @@
+/**
+ * Program written by Moscolape
+ */
+
+#include <stdio.h>
+
+/**
+ * main - Prints the letters of the alphabet to lowercase
+ *
+ * Return: Always 0.
+ */
+
+int main(void)
+
+{
+
+char alpha;
+
+for (alpha = '0'; alpha <= 'z'; alpha++)
+
+putchar(alpha);
+
+putchar('\n');
+
+return (0);
+
+}
