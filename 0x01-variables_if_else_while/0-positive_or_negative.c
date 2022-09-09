@@ -1,5 +1,6 @@
 /**
- * main - Prints a random number, stating if it is positive, negative, or zero.
+ * Program - Will print a random number, stating if it is positive, negative, or zero.
+ *
  * Program written by Chukwunenye Moses
  */
 
@@ -9,6 +10,8 @@
 #include <stdio.h>
 
 /**
+ * main - entry point
+ *
  * Return: Always 0.
  */
 
