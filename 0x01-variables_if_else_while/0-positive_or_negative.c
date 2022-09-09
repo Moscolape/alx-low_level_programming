@@ -1,5 +1,5 @@
 /**
- * Program - Will print a random number, stating if it is positive, negative, or zero.
+ * File: Print a random number, stating if it is positive, negative, or zero.
  *
  * Program written by Chukwunenye Moses
  */
