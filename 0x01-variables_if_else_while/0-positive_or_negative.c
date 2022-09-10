@@ -10,9 +10,9 @@
 #include <stdio.h>
 
 /**
- * main(void) - Entry point
+ * main - Entry point
  *
- * Return: main(void) should always return 0 - success.
+ * Return: 0
  */
 
 int main(void)
