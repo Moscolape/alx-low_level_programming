@@ -1,9 +1,3 @@
-/**
- * File: 1-last_digit.c
- * Program written by Chukwunenye Moses
- */
-
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
