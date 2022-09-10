@@ -1,7 +1,3 @@
-/**
- * main - Print all single digits starting from 0, using putchar and no char
- */
-
 #include <stdio.h>
 
 /**
