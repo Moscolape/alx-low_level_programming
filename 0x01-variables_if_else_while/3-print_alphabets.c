@@ -1,7 +1,3 @@
-/**
- * Program written by Moscolape
- */
-
 #include <stdio.h>
 
 /**
