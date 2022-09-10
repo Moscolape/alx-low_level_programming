@@ -1,7 +1,3 @@
-/**
- * Program written by Chukwunenye Moses
- */
-
 #include <stdio.h>
 
 /**
