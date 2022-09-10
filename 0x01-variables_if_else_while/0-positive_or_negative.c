@@ -1,10 +1,3 @@
-/**
- * main - Print a random number, stating if it is positive, negative, or zero.
- *
- * Program written by Chukwunenye Moses
- */
-
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
