@@ -8,9 +8,9 @@
 
 void print_number(int n)
 {
-long m;
+int m;
 int c;
-long num;
+int num;
 
 num = n;
 
