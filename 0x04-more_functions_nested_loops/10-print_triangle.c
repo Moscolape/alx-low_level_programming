@@ -3,36 +3,35 @@
 /**
  * print_triangle - prints a triangle
  *@size: size of the triangle
+ *
+ * Return: Always 0.
  */
 
 void print_triangle(int size)
 
 {
+int x;
+int y;
 
-if (size <= 0)
+for (x = 1; x <= size; x++)
 
 {
-_putchar('\n');
-}
-else
-{
-int i, j;
 
-for (i = 1; i <= size; i++)
+for (y = 1; y <= size; y++)
 {
-for (j = i; j < size; j++)
+if (y <= size - x)
 {
 _putchar(' ');
 }
-
-for (j = 1; j <= i; j++)
+else
 {
 _putchar('#');
 }
 
+}
+
 _putchar('\n');
 
-}
 }
 
 }
