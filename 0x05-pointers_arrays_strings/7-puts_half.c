@@ -24,9 +24,13 @@ half = count / 2;
 for (i = 0; i < half; i++)
 {
 if (count % 2 == 0)
+{
 _putchar(*(str + i + half));
+}
 else
+{
 _putchar(*(str + 1 + i + half));
+}
 }
 
 _putchar('\n');
