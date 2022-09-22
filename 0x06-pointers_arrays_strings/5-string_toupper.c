@@ -17,7 +17,7 @@ while (*(ch + i) != '\0')
 if (*(ch + i) >= 97 && *(ch + i) <= 122)
 {
 *(ch + i) = *(ch + i) - ' ';
-
+}
 i++;
 }
 return (ch);
