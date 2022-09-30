@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
  * main - Entry Point
- * atoi is a function that converts a string into an int
  * @argc: arguments
  * @argv: array pointing to arguments
  * Return: 0
@@ -13,23 +12,24 @@
 int main(int argc, char *argv[])
 
 {
-int i, res = 1;
+int i, sum = 0;
 
-if (argc != 3)
+if (argc < 1)
+
+return (0);
+
+for (i = 1; i < argc; i++)
+{
+if (!atoi(argv[i]))
 {
 printf("%s\n", "Error");
 return (1);
 }
 
-else
-{
-for (i = 1; i < argc; i++)
-{
-res *= atoi(argv[i]);
+sum += atoi(argv[i]);
 }
 
-printf("%d\n", res);
-}
+printf("%d\n", sum);
 
 return (0);
 
