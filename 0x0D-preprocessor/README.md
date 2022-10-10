@@ -1,1 +1,1 @@
-This README.md describes the function of the program written in the other files of this repository
+This README.md describes the function of the header files written into this repository
