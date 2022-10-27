@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -13,9 +13,6 @@
 unsigned int binary_to_uint(const char *b)
 
 {
-unsigned int i, len;
-unsigned int decval;
-
 unsigned int num = 0, mult = 1;
 int len;
 
