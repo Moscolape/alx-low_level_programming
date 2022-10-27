@@ -16,28 +16,23 @@ unsigned int binary_to_uint(const char *b)
 unsigned int i, len;
 unsigned int decval;
 
-i = len = decval = 0;
+unsigned int num = 0, mult = 1;
+int len;
 
-if (b == NULL)
+if (b == '\0')
 return (0);
 
-while (b[len] != '\0')
-{
-if (b[len] == '0' || b[len] == '1')
+for (len = 0; b[len];)
 len++;
 
-else
-return (0);
-}
-while (i < len)
-
+for (len -= 1; len >= 0; len--)
 {
-decval = decval << 1;
-if (b[i] == '1')
+if (b[len] != '0' && b[len] != '1')
+return (0);
 
-decval += 1;
-
-i++;
+num += (b[len] - '0') * mult;
+mult *= 2;
 }
-return (decval);
+
+return(num)
 }
