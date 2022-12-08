@@ -6,7 +6,6 @@
  * @head: head of the list
  * Return: no return
  */
-
 void free_dlistint(dlistint_t *head)
 {
 dlistint_t *tmp;
@@ -18,4 +17,6 @@ head = head->prev;
 while ((tmp = head) != NULL)
 {
 head = head->next;
+free(tmp);
+}
 }
